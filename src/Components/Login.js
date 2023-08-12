@@ -25,8 +25,8 @@ function Login({ setUser }) {
   return (
     <div className="login">
       <div className="login-container">
-        <img className="login-logo" src="./whatsapp-logo.png" alt="" />
-        <p className="login-name">WhatsApp Web</p>
+        <img className="login-logo" src="./conversation.webp" alt="" />
+        <p className="login-name">Conversation App</p>
         <button className="login-btn" onClick={signInWithGoogle}>
           <img src="./google-logo.png" alt="login with google" />
           Login with Google
